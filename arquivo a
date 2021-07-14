@@ -1,0 +1,77 @@
+# -*- coding:utf -8 -*-
+
+while True:
+	print('Ólaa,vamos conversar')
+	conversar = input('Digite sim ou não: ')
+	print()
+	if conversar == 'sim':
+		print('Q bom, vamos começar')
+	else:
+		print('Tem certeza')
+		certeza = input('Digite sim ou não: ')
+		print() 
+		if certeza == 'não':
+			print('Ok vamos começar')
+		else:
+			print('Tem certeza absoluta')
+			absoluta = input('Digite sim ou não: ')
+			print()
+		if absoluta == 'não':
+				print('Ok, vamos começar')
+		else:
+			print('Mais você tem certeza mesmo?')
+			mesmo = input('Digite sim ou não: ')
+			print()
+			print()
+		if mesmo == 'não':
+			print('Ok, vamos começar')
+		else:
+			print('Que pena')	
+			break
+	#dialogo
+	i = input('Digite seu nome: ')
+	print()
+	print('Olá',i)
+	print()
+	print('Tudo bem com você?')
+	resposta = input('Digite sim ou não: ')
+	if resposta == 'sim':
+		print('Que bom')	
+	else:
+		print('Poxa tomara que melhore logo')
+	print()
+	print('Como vai seu dia?')
+	dia = input('Digite ésta legal ou ésta ruim: ')
+	if dia == 'ésta legal':
+		print('Que bom')
+	else:
+		print('Poxa tomara que melhore logo')
+	print()	
+	print('O que você vai fazer hoje?')		
+	hoje = input('Digite oque você vai fazer hoje: ')
+	print()
+	print('Legal')
+	print()
+	print()
+	print('Mudando de assunto, oque você gosta de fazer no dia a dia')
+	assunto = input('Digite aqui oque você gosta de fazer: ')
+
+	print('Qual seu esporte preferido?')
+	esporte = input('Digite aqui seu esporte preferido: ')
+	print()
+	
+	print('Você deve jogar', esporte ,'muito bem',i)
+
+	print('Vamos encerrar por aqui')
+	print()
+	print('Você gostou das perguntas',i)
+	gostou = input('Digite sim ou não: ')
+	if gostou == 'sim':
+		print('Que bom')
+	else:
+		print('Ok')	
+	break
+#ARQUIVO A
+
+
+
